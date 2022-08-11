@@ -1,0 +1,13 @@
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\bin\Debug\SkyBlueCinemaOrderingSystem.exe
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\bin\Debug\SkyBlueCinemaOrderingSystem.pdb
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\bin\Debug\SkyBlueCinemaOrderingSystem.xml
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.frmWelcomePage.resources
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\SkyBlueCinemaOrderingSystem.vbproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\SkyBlueCinemaOrderingSystem.exe
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\SkyBlueCinemaOrderingSystem.xml
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\SkyBlueCinemaOrderingSystem.pdb
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.frmDrinkPage.resources
+C:\Users\user\documents\visual studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.frmFoodPage.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.frmpaymentpage.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\SkyBlueCinemaOrderingSystem\SkyBlueCinemaOrderingSystem\obj\x86\Debug\WindowsApplication1.frmamountpayablepage.resources

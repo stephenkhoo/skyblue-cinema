@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B903B9EA-F12E-42BE-95DE-1FF6CA368966}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>SkyBlueCinemaOrderingSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SkyBlueCinemaOrderingSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SkyBlueCinemaOrderingSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmPaymentpage.Designer.vb">
+      <DependentUpon>frmPaymentpage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentpage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAmountPayablePage.Designer.vb">
+      <DependentUpon>frmAmountPayablePage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAmountPayablePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDrinkPage.Designer.vb">
+      <DependentUpon>frmDrinkPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDrinkPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFoodPage.Designer.vb">
+      <DependentUpon>frmFoodPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFoodPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcomePage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWelcomePage.Designer.vb">
+      <DependentUpon>frmWelcomePage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAmountPayablePage.resx">
+      <DependentUpon>frmAmountPayablePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDrinkPage.resx">
+      <DependentUpon>frmDrinkPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodPage.resx">
+      <DependentUpon>frmFoodPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpaymentpage.resx">
+      <DependentUpon>frmPaymentpage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWelcomePage.resx">
+      <DependentUpon>frmWelcomePage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17759871_441767406169764_119756857379173931_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popcorn - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\popcorn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolatebar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolatebar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cheesering.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gummyworm.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lemonade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountaindew.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orangejuice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginpage.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
