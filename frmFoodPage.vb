@@ -161,6 +161,16 @@
             e.Handled = True
         End If
     End Sub
+
+    Private Sub Reset()
+        popcornM = Empty
+        popcornL = Empty
+        RoyalChocolateBar = Empty
+        TwistedCheeseRing = Empty
+        CookieDoughBites = Empty
+        GummyWorms = Empty
+        popcornM = Empty
+    End Sub
 End Class
 
 

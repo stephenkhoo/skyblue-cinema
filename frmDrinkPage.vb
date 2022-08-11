@@ -110,4 +110,11 @@
             e.Handled = True
         End If
     End Sub
+
+    Private Sub Reset()
+        coke = Empty
+        lemonade = Empty
+        mountaindew = Empty
+        orangejuice = Empty
+    End Sub
 End Class
